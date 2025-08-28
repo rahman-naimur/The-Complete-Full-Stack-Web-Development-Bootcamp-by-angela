@@ -1,0 +1,25 @@
+/* diffrent element selector  */
+h1, h2 {
+    color: blueviolet;
+}
+/* child selector  */
+.box > p {
+    color: firebrick;
+}
+/* decendent selector  */
+.box li {
+    color: blue;
+}
+/* Chaining selector  */
+li.done {
+    color: seagreen;
+}
+ /* decendent chaining selector  */
+ul p.done {
+    font-size: 0.5rem;
+}
+
+/* child chaining selector  */
+/* ul > p.done {
+    font-size: 1rem;
+} */
